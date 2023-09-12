@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --c0: #000000;
+  --c1: #6f6f75;
+  --c2: #9a20af;
+  --c3: #8d8d94;
+  --c4: #ffffff;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-family: "Noto Sans Duployan", sans-serif;
+}
+.background1 {
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  margin-left: 80px;
+}
+.nav-right {
+  display: flex;
+  margin-right: 80px;
+}
+.KUDZOKAlogo {
+  height: 70px;
+}
+a {
+  text-decoration: none;
+  color: var(--c3);
+  margin: 20px;
+}
+.active {
+  border-bottom: 2px solid var(--c2);
+  border-radius: 2px;
+  width: 35px;
+  margin-right: 30px;
+}
+.login {
+  position: relative;
+}
+.p-1 {
+  position: absolute;
+  font-size: 20px;
+  color: var(--c1);
+  right: 121px;
+  top: 12px;
+}
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+}
+.p1 {
+  position: absolute;
+  font-size: 60px;
+  left: 100px;
+  bottom: 500px;
+  color: var(--c1);
+}
+b {
+  color: var(--c2);
+}
+.p2 {
+  position: absolute;
+  font-size: 26px;
+  left: 100px;
+  bottom: 450px;
+  color: var(--c3);
+}
+.p3 {
+  position: absolute;
+  font-size: 26px;
+  left: 100px;
+  bottom: 420px;
+  color: var(--c3);
+}
+.landing {
+  position: absolute;
+  left: 46%;
+  top: 60px;
+  z-index: -1;
+}
+.mask {
+  position: absolute;
+  left: 60%;
+  top: 160px;
+  z-index: 2;
+}
+.clouds {
+  position: absolute;
+  left: 55%;
+  top: 660px;
+  z-index: 3;
+}
+.waves {
+  position: absolute;
+  width: 1400px;
+  top: 800px;
+  right: 630px;
+}
+.sec3 {
+  display: flex;
+}
+.background3 {
+  position: relative;
+  top: 100px;
+  left: 400px;
+}
+.motorcycle {
+  position: absolute;
+  left: 250px;
+  top: 1130px;
+}
+.time {
+  position: absolute;
+  left: 820px;
+  top: 1300px;
+}
+.dicscounts {
+  position: absolute;
+  left: 1300px;
+  top: 1650px;
+}
+.logo {
+  position: absolute;
+  left: 210px;
+  top: 1690px;
+}
+.p13 {
+  position: absolute;
+  left: 330px;
+  top: 1830px;
+  font-size: 26px;
+  color: var(--c4);
+}
+.p14 {
+  position: absolute;
+  left: 330px;
+  top: 1870px;
+  font-size: 58px;
+  color: var(--c4);
+}
+.p4 {
+  position: absolute;
+  left: 260px;
+  top: 1340px;
+  font-size: 26px;
+  color: var(--c0);
+}
+.p5 {
+  position: absolute;
+  left: 200px;
+  top: 1385px;
+  font-size: 23px;
+  color: var(--c1);
+}
+.p6 {
+  position: absolute;
+  left: 165px;
+  top: 1415px;
+  font-size: 23px;
+  color: var(--c1);
+}
+.p7 {
+  position: absolute;
+  left: 830px;
+  top: 1510px;
+  font-size: 26px;
+  color: var(--c0);
+}
+.p8 {
+  position: absolute;
+  left: 690px;
+  top: 1555px;
+  font-size: 23px;
+  color: var(--c1);
+}
+.p9 {
+  position: absolute;
+  left: 750px;
+  top: 1585px;
+  font-size: 23px;
+  color: var(--c1);
+}
+.p10 {
+  position: absolute;
+  left: 1400px;
+  top: 1860px;
+  font-size: 26px;
+  color: var(--c0);
+}
+.p11 {
+  position: absolute;
+  left: 1240px;
+  top: 1905px;
+  font-size: 23px;
+  color: var(--c1);
+}
+.p12 {
+  position: absolute;
+  left: 1212px;
+  top: 1935px;
+  font-size: 23px;
+  color: var(--c1);
+}
+.sec4 {
+  display: flex;
+}
+.div-left {
+  position: absolute;
+  left: 300px;
+  top: 2350px;
+}
+.div-middle {
+  position: absolute;
+  left: 650px;
+  top: 2150px;
+}
+.div-right {
+  position: absolute;
+  left: 1400px;
+  top: 2350px;
+}
+.h1 {
+  position: absolute;
+  top: 410px;
+  left: 10px;
+  font-size: 30px;
+}
+.h2 {
+  position: absolute;
+  top: 410px;
+  left: 630px;
+  font-size: 30px;
+}
+.p15 {
+  position: absolute;
+  font-size: 26px;
+  color: var(--c0);
+  left: 195px;
+  top: 500px;
+}
+.p16 {
+  position: absolute;
+  font-size: 23px;
+  color: var(--c1);
+  left: 195px;
+  top: 570px;
+}
+.p17 {
+  position: absolute;
+  font-size: 23px;
+  color: var(--c1);
+  left: 190px;
+  top: 600px;
+}
+.p18 {
+  position: absolute;
+  font-size: 23px;
+  color: var(--c1);
+  left: 250px;
+  top: 630px;
+}
+footer {
+  display: flex;
+}
+.background4 {
+  position: relative;
+  top: 1200px;
+  width: 100%;
+  z-index: -1;
+}
+.up {
+  display: flex;
+  position: absolute;
+  top: 3310px;
+  left: 200px;
+}
+.apllestore {
+  position: absolute;
+  left: 20px;
+  background-color: var(--c4);
+  width: 130px;
+  height: 55px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.playstore {
+  position: absolute;
+  left: 180px;
+  background-color: var(--c4);
+  width: 130px;
+  height: 55px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.p19 {
+  position: absolute;
+
+  left: 273px;
+  top: 3320px;
+  font-size: 10px;
+  color: var(--c1);
+}
+.p20 {
+  position: absolute;
+  left: 270px;
+  top: 3335px;
+  font-size: 12px;
+}
+.p21 {
+  position: absolute;
+  left: 433px;
+  top: 3320px;
+  font-size: 10px;
+  color: var(--c1);
+}
+.p22 {
+  position: absolute;
+  left: 430px;
+  top: 3335px;
+  font-size: 12px;
+}
+.middle {
+  display: flex;
+  position: absolute;
+  top: 3410px;
+  left: 200px;
+}
+.insta {
+  position: absolute;
+  left: 15px;
+}
+.whatsapp {
+  position: absolute;
+  left: 65px;
+}
+.facebook {
+  position: absolute;
+  left: 115px;
+}
+.bottom {
+  position: absolute;
+  display: flex;
+  top: 3470px;
+  left: 200px;
+}
+.h3 {
+  color: var(--c4);
+  font-size: 21px;
+}
+.people {
+  position: absolute;
+  width: 900px;
+  top: 2949px;
+  left: 870px;
+  z-index: 1;
+}
