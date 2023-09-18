@@ -9,7 +9,9 @@
   --c2: #9a20af;
   --c3: #8d8d94;
   --c4: #ffffff;
+  --c5: #80edd6;
 }
+
 body {
   font-family: "Cairo", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -21,6 +23,9 @@ body {
   z-index: -1;
   height: 100vh;
   width: 100%;
+}
+header {
+  background-size: 100%;
 }
 nav {
   display: flex;
@@ -43,10 +48,18 @@ nav {
 .KUDZOKAlogo {
   height: 70px;
 }
+.KUDZOKAlogo :hover {
+  width: 200px;
+  height: 300px;
+}
 a {
   text-decoration: none;
   color: var(--c3);
   margin: 20px;
+  cursor: pointer;
+}
+a :hover {
+  background-color: var(--c1);
 }
 .active {
   border-bottom: 2px solid var(--c2);
